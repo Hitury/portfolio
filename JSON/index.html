@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="quiz-container">
+            <h1 id="quiz-title">Quiz</h1>
+            <h2 id="question-text"></h2>
+            <textarea type="text" rows="10" placeholder="Put JSON here" id="input-box">{
+                "quizTitle": "Programmeerquiz",
+                "questions": [
+                    {
+                        "question": "Wat is het resultaat van 5 + '5' in JavaScript?",
+                        "options": [
+                            "10",
+                            "55",
+                            "Error",
+                            "undefined"
+                        ],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Welke methode gebruik je om een element toe te voegen aan het einde van een array?",
+                        "options": [
+                            "push()",
+                            "append()",
+                            "add()",
+                            "insert()"
+                        ],
+                        "correctAnswer": 0
+                    },
+                    {
+                        "question": "Welke declaratie gebruik je (meestal) voor arrays en objecten?",
+                        "options": [
+                            "var",
+                            "let",
+                            "store",
+                            "const"
+                        ],
+                        "correctAnswer": 3
+                    },
+                    {
+                        "question": "Who is the real koineko...",
+                        "options": [
+                            "Koineko1",
+                            "Koineko2",
+                            "Koineko3",
+                            "Hutaoty2"
+                        ],
+                        "correctAnswer": 3
+                    }
+                ]
+            }</textarea>
+            <input id="file-box" type="file" accept=".json">
+            <button id="file-btn" onclick="document.getElementById('file-box').click()">Choose File</button>
+            <div id="answers">
+
+            </div>
+            <button type="button" id="next-button">Start Quiz</button>
+            <h3 id="output"></h3>
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+{
+    "quizTitle": "Programmeerquiz",
+    "questions": [
+        {
+            "question": "Wat is het resultaat van 5 + '5' in JavaScript?",
+            "options": [
+                "10",
+                "55",
+                "Error",
+                "undefined"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "question": "Welke methode gebruik je om een element toe te voegen aan het einde van een array?",
+            "options": [
+                "push()",
+                "append()",
+                "add()",
+                "insert()"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "question": "Welke declaratie gebruik je (meestal) voor arrays en objecten?",
+            "options": [
+                "var",
+                "let",
+                "store",
+                "const"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "question": "Who is the real koineko...",
+            "options": [
+                "Koineko1",
+                "Koineko2",
+                "Koineko3",
+                "Hutaoty2"
+            ],
+            "correctAnswer": 3
+        }
+    ]
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#answers {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    gap: 5px;
+}
+
+.answer-btn {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+#file-box {
+
+    color: #e5e9f0;
+    display: none;
+    
+    
+}
+
+#file-btn {
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: black;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+    transition: 200ms ease-in-out;
+    -webkit-transition: 200ms ease-in-out;
+    -moz-transition: 200ms ease-in-out;
+}
+
+#file-btn:hover {
+    background-color: #d3d3d3;
+    transition: 200ms ease-in-out;
+    -webkit-transition: 200ms ease-in-out;
+    -moz-transition: 200ms ease-in-out;
+}
+
+#file-box::-webkit-file-upload-button {
+    display: none;
+}
+
+.answer-label {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+#input-box {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    border-radius: 7px;
+    resize: none;
+    padding: 4px;
+    font-family: "Poppins", sans-serif;
+    color: rgb(39, 36, 36);
+}
+
+button {
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: black;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10px;
+    transition: 200ms ease-in-out;
+    -webkit-transition: 200ms ease-in-out;
+    -moz-transition: 200ms ease-in-out;
+}
+
+button:hover {
+    background-color: #d3d3d3;
+    transition: 200ms ease-in-out;
+    -webkit-transition: 200ms ease-in-out;
+    -moz-transition: 200ms ease-in-out;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#quiz-container {
+    background-color: #e5e9f0;
+    padding: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    box-shadow: 2px 1px 3px 3px rgb(158, 157, 157);
+    border-radius: 7px;
+}
+
+body {
+    background-color: #eceff4;
+}
